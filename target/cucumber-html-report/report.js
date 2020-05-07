@@ -1,449 +1,217 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/sai/eclipse-workspace/FacebookBDD/src/main/java/Features/Signup.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/sai/eclipse-workspace/FacebookBDD/src/main/java/Features/Tags.feature");
 formatter.feature({
-  "line": 1,
-  "name": "facebook signup feature",
+  "line": 2,
+  "name": "working on tags",
   "description": "",
-  "id": "facebook-signup-feature",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "line": 3,
-  "name": "facebook signup test scenario",
-  "description": "",
-  "id": "facebook-signup-feature;facebook-signup-test-scenario",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "User is at sign up page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "title is facebook",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "user enters \"\u003cFirstname\u003e\" and \"\u003cLastname\u003e\" and \"\u003cemail\u003e\" and \"\u003cpassword\u003e\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "Select Birthday",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": "guy opt for gender",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "user clicks signup button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 17,
-  "name": "close the browser",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 19,
-  "name": "",
-  "description": "",
-  "id": "facebook-signup-feature;facebook-signup-test-scenario;",
-  "rows": [
+  "id": "working-on-tags",
+  "keyword": "Feature",
+  "tags": [
     {
-      "cells": [
-        "Firstname",
-        "Lastname",
-        "email",
-        "password"
-      ],
-      "line": 21,
-      "id": "facebook-signup-feature;facebook-signup-test-scenario;;1"
-    },
-    {
-      "cells": [
-        "mike",
-        "kosa",
-        "kittu8064@gmail.com",
-        "123456"
-      ],
-      "line": 22,
-      "id": "facebook-signup-feature;facebook-signup-test-scenario;;2"
-    },
-    {
-      "cells": [
-        "marty",
-        "byrde",
-        "yesh@gmail.com",
-        "456789"
-      ],
-      "line": 23,
-      "id": "facebook-signup-feature;facebook-signup-test-scenario;;3"
-    },
-    {
-      "cells": [
-        "ruth",
-        "lang",
-        "ruth@4675@gmail.com",
-        "123890"
-      ],
-      "line": 24,
-      "id": "facebook-signup-feature;facebook-signup-test-scenario;;4"
+      "line": 1,
+      "name": "@Functionaltest"
     }
-  ],
-  "keyword": "Examples"
+  ]
 });
 formatter.scenario({
+  "line": 5,
+  "name": "open facebook",
+  "description": "",
+  "id": "working-on-tags;open-facebook",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Smoketest"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "open browser",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Tagsdefinitions.open_browser()"
+});
+formatter.result({
+  "duration": 495117747,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "facebook is opened",
+  "description": "",
+  "id": "working-on-tags;facebook-is-opened",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 8,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 10,
+  "name": "check the details",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Tagsdefinitions.check_the_details()"
+});
+formatter.result({
+  "duration": 71814,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "enter details",
+  "description": "",
+  "id": "working-on-tags;enter-details",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 12,
+      "name": "@Smoketest"
+    },
+    {
+      "line": 12,
+      "name": "@Regressiontest"
+    }
+  ]
+});
+formatter.step({
+  "line": 14,
+  "name": "enter credentials",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Tagsdefinitions.enter_credentials()"
+});
+formatter.result({
+  "duration": 79373,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "check password",
+  "description": "",
+  "id": "working-on-tags;check-password",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 16,
+      "name": "@Regressiontest"
+    },
+    {
+      "line": 16,
+      "name": "@Smoketest"
+    }
+  ]
+});
+formatter.step({
+  "line": 18,
+  "name": "enter correctly",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Tagsdefinitions.enter_correctly()"
+});
+formatter.result({
+  "duration": 62634,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 21,
+  "name": "signup facebook",
+  "description": "",
+  "id": "working-on-tags;signup-facebook",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 20,
+      "name": "@Smoketest"
+    },
+    {
+      "line": 20,
+      "name": "@end2endtest"
+    }
+  ]
+});
+formatter.step({
   "line": 22,
-  "name": "facebook signup test scenario",
-  "description": "",
-  "id": "facebook-signup-feature;facebook-signup-test-scenario;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "User is at sign up page",
+  "name": "register to facebook",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 7,
-  "name": "title is facebook",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "user enters \"mike\" and \"kosa\" and \"kittu8064@gmail.com\" and \"123456\"",
-  "matchedColumns": [
-    0,
-    1,
-    2,
-    3
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "Select Birthday",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": "guy opt for gender",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "user clicks signup button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 17,
-  "name": "close the browser",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "loginstepdefinitions.user_at_login_page()"
+  "location": "Tagsdefinitions.register_to_facebook()"
 });
 formatter.result({
-  "duration": 17810949594,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.title_is_facebook()"
-});
-formatter.result({
-  "duration": 49946706,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "mike",
-      "offset": 13
-    },
-    {
-      "val": "kosa",
-      "offset": 24
-    },
-    {
-      "val": "kittu8064@gmail.com",
-      "offset": 35
-    },
-    {
-      "val": "123456",
-      "offset": 61
-    }
-  ],
-  "location": "loginstepdefinitions.user_enters_firstname_lastname_email_password(String,String,String,String)"
-});
-formatter.result({
-  "duration": 3414545463,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.Select_Birthday()"
-});
-formatter.result({
-  "duration": 692142716,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.guy_opt_for_gender()"
-});
-formatter.result({
-  "duration": 247805362,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.user_clicks_signup_button()"
-});
-formatter.result({
-  "duration": 702794363,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.close_browser()"
-});
-formatter.result({
-  "duration": 8933557738,
+  "duration": 71274,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 23,
-  "name": "facebook signup test scenario",
+  "line": 25,
+  "name": "enter firstname",
   "description": "",
-  "id": "facebook-signup-feature;facebook-signup-test-scenario;;3",
+  "id": "working-on-tags;enter-firstname",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 24,
+      "name": "@end2endtest"
+    }
+  ]
 });
 formatter.step({
-  "line": 5,
-  "name": "User is at sign up page",
+  "line": 26,
+  "name": "check the spelling",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 7,
-  "name": "title is facebook",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "user enters \"marty\" and \"byrde\" and \"yesh@gmail.com\" and \"456789\"",
-  "matchedColumns": [
-    0,
-    1,
-    2,
-    3
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "Select Birthday",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": "guy opt for gender",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "user clicks signup button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 17,
-  "name": "close the browser",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "loginstepdefinitions.user_at_login_page()"
+  "location": "Tagsdefinitions.check_the_spelling()"
 });
 formatter.result({
-  "duration": 9066179845,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.title_is_facebook()"
-});
-formatter.result({
-  "duration": 49803080,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "marty",
-      "offset": 13
-    },
-    {
-      "val": "byrde",
-      "offset": 25
-    },
-    {
-      "val": "yesh@gmail.com",
-      "offset": 37
-    },
-    {
-      "val": "456789",
-      "offset": 58
-    }
-  ],
-  "location": "loginstepdefinitions.user_enters_firstname_lastname_email_password(String,String,String,String)"
-});
-formatter.result({
-  "duration": 2477582783,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.Select_Birthday()"
-});
-formatter.result({
-  "duration": 786051294,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.guy_opt_for_gender()"
-});
-formatter.result({
-  "duration": 618470486,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.user_clicks_signup_button()"
-});
-formatter.result({
-  "duration": 558866186,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.close_browser()"
-});
-formatter.result({
-  "duration": 7717096631,
+  "duration": 62634,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 24,
-  "name": "facebook signup test scenario",
+  "line": 33,
+  "name": "enter dob",
   "description": "",
-  "id": "facebook-signup-feature;facebook-signup-test-scenario;;4",
+  "id": "working-on-tags;enter-dob",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 32,
+      "name": "@end2endtest"
+    },
+    {
+      "line": 32,
+      "name": "@Regressiontest"
+    },
+    {
+      "line": 32,
+      "name": "@Smoketest"
+    }
+  ]
 });
 formatter.step({
-  "line": 5,
-  "name": "User is at sign up page",
+  "line": 34,
+  "name": "birthday selected",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 7,
-  "name": "title is facebook",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "user enters \"ruth\" and \"lang\" and \"ruth@4675@gmail.com\" and \"123890\"",
-  "matchedColumns": [
-    0,
-    1,
-    2,
-    3
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "Select Birthday",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": "guy opt for gender",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "user clicks signup button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 17,
-  "name": "close the browser",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "loginstepdefinitions.user_at_login_page()"
+  "location": "Tagsdefinitions.birthday_selected()"
 });
 formatter.result({
-  "duration": 8094026827,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.title_is_facebook()"
-});
-formatter.result({
-  "duration": 40995910,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "ruth",
-      "offset": 13
-    },
-    {
-      "val": "lang",
-      "offset": 24
-    },
-    {
-      "val": "ruth@4675@gmail.com",
-      "offset": 35
-    },
-    {
-      "val": "123890",
-      "offset": 61
-    }
-  ],
-  "location": "loginstepdefinitions.user_enters_firstname_lastname_email_password(String,String,String,String)"
-});
-formatter.result({
-  "duration": 3089511202,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.Select_Birthday()"
-});
-formatter.result({
-  "duration": 936756958,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.guy_opt_for_gender()"
-});
-formatter.result({
-  "duration": 287628495,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.user_clicks_signup_button()"
-});
-formatter.result({
-  "duration": 395509430,
-  "status": "passed"
-});
-formatter.match({
-  "location": "loginstepdefinitions.close_browser()"
-});
-formatter.result({
-  "duration": 3003245656,
+  "duration": 76133,
   "status": "passed"
 });
 });

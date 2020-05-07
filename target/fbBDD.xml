@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="68.973466">
-<testcase classname="facebook signup feature" name="facebook signup test scenario" time="31.851742">
-<system-out><![CDATA[Given User is at sign up page...............................................passed
-When title is facebook......................................................passed
-Then user enters "mike" and "kosa" and "kittu8064@gmail.com" and "123456"...passed
-Then Select Birthday........................................................passed
-Then guy opt for gender.....................................................passed
-Then user clicks signup button..............................................passed
-Then close the browser......................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0.495542">
+<testcase classname="working on tags" name="open facebook" time="0.495118">
+<system-out><![CDATA[Given open browser..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="facebook signup feature" name="facebook signup test scenario 2" time="21.27405">
-<system-out><![CDATA[Given User is at sign up page...............................................passed
-When title is facebook......................................................passed
-Then user enters "marty" and "byrde" and "yesh@gmail.com" and "456789"......passed
-Then Select Birthday........................................................passed
-Then guy opt for gender.....................................................passed
-Then user clicks signup button..............................................passed
-Then close the browser......................................................passed
+<testcase classname="working on tags" name="facebook is opened" time="0.000072">
+<system-out><![CDATA[Given check the details.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="facebook signup feature" name="facebook signup test scenario 3" time="15.847674">
-<system-out><![CDATA[Given User is at sign up page...............................................passed
-When title is facebook......................................................passed
-Then user enters "ruth" and "lang" and "ruth@4675@gmail.com" and "123890"...passed
-Then Select Birthday........................................................passed
-Then guy opt for gender.....................................................passed
-Then user clicks signup button..............................................passed
-Then close the browser......................................................passed
+<testcase classname="working on tags" name="enter details" time="0.000079">
+<system-out><![CDATA[Given enter credentials.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="working on tags" name="check password" time="0.000063">
+<system-out><![CDATA[Given enter correctly.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="working on tags" name="signup facebook" time="0.000071">
+<system-out><![CDATA[Given register to facebook..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="working on tags" name="enter firstname" time="0.000063">
+<system-out><![CDATA[Given check the spelling....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="working on tags" name="enter dob" time="0.000076">
+<system-out><![CDATA[Given birthday selected.....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

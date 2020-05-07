@@ -1,18 +1,18 @@
 /*package stepdefinitions;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-//import junit.framework.Assert;
-
-public class loginstepdefinitions {
-
-	WebDriver driver;
+public class Datatablesdefinitions {
+WebDriver driver;
 	
 	
 	@Given("^User is at sign up page$")
@@ -31,25 +31,22 @@ public class loginstepdefinitions {
 		
 	}
 	
-	//regular expression
-	//\"(.*)\" (OR) \"([^\"]*)\"
+	@Then("^user enters email and password$")
+	public void user_enters_email_password(DataTable credentials) {
+   List<List<String>> data = credentials.raw();
+    driver.findElement(By.xpath("//input[@type='email' and @name='email']")).sendKeys(data.get(0).get(0));
+    driver.findElement(By.xpath("//input[@type='password' and @name='pass']")).sendKeys(data.get(0).get(1));
+}
 	
-	@Then("^user enters \"(.*)\" and \"(.*)\"$")
-	public void user_enters_email_id_and_password(String username, String password)  {
-	    driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys(username);
-	    driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys(password);
-	    
-	}
+	@Then("^user enters firstname and lastname and address and pwd$")
+	public void user_enters_details(DataTable details) {
+		List<List<String>> data1 = details.raw();
+	driver.findElement(By.xpath("//input[@type='text' and @name='firstname']")).sendKeys(data1.get(0).get(0));
+	driver.findElement(By.xpath("//input[@type='text' and @name='lastname']")).sendKeys(data1.get(0).get(1));
+	driver.findElement(By.xpath("//input[@type='text' and @name='reg_email__']")).sendKeys(data1.get(0).get(2));
+	driver.findElement(By.xpath("//input[@type='password' and @name='reg_passwd__']")).sendKeys(data1.get(0).get(3));
 	
-	@Then("^user enters \"(.*)\" and \"(.*)\" and \"(.*)\" and \"(.*)\"$")
-	public void user_enters_firstname_lastname_email_password(String Firstname, String Lastname, String email, String password)  {
-	    driver.findElement(By.xpath("//input[@type='text' and @name='firstname']")).sendKeys(Firstname);
-	    driver.findElement(By.xpath("//input[@type='text' and @name='lastname']")).sendKeys(Lastname);
-	    driver.findElement(By.xpath("//input[@type='text' and @name='reg_email__']")).sendKeys(email);
-	    driver.findElement(By.xpath("//input[@type='password' and @name='reg_passwd__']")).sendKeys(password);
-	}
-	
-	
+}
 	@Then("^Select Birthday$")
 	public void Select_Birthday()  {
 	    driver.findElement(By.xpath("//*[@id=\"month\"]/option[3]")).click();
@@ -71,6 +68,6 @@ public class loginstepdefinitions {
 	public void close_browser() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();
-	}
+		}
 }
 */

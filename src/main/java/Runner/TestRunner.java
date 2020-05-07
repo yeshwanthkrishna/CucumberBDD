@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		
 		//features is path of the features file
-		features = "C:\\Users\\sai\\eclipse-workspace\\FacebookBDD\\src\\main\\java\\Features\\Signup.feature" ,
+		features = "C:\\Users\\sai\\eclipse-workspace\\FacebookBDD\\src\\main\\java\\Features\\Tags.feature" ,
 		
 		glue = {"stepdefinitions"}, //glue is path of the step definitions file
 		
@@ -21,8 +21,9 @@ import cucumber.api.junit.Cucumber;
 		
 		monochrome = true, //display the console output in a proper readable format
 		
-		strict = true //it will check if any step is not defined inside in step definition class
+		strict = true, //it will check if any step is not defined inside in step definition class
 		
+		tags = {"@Smoketest, ~@Regressiontest, ~@end2endtest"}
 		)
 public class TestRunner {
 	
