@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="68.973466">
+<testcase classname="facebook signup feature" name="facebook signup test scenario" time="31.851742">
+<system-out><![CDATA[Given User is at sign up page...............................................passed
+When title is facebook......................................................passed
+Then user enters "mike" and "kosa" and "kittu8064@gmail.com" and "123456"...passed
+Then Select Birthday........................................................passed
+Then guy opt for gender.....................................................passed
+Then user clicks signup button..............................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="facebook signup feature" name="facebook signup test scenario 2" time="21.27405">
+<system-out><![CDATA[Given User is at sign up page...............................................passed
+When title is facebook......................................................passed
+Then user enters "marty" and "byrde" and "yesh@gmail.com" and "456789"......passed
+Then Select Birthday........................................................passed
+Then guy opt for gender.....................................................passed
+Then user clicks signup button..............................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="facebook signup feature" name="facebook signup test scenario 3" time="15.847674">
+<system-out><![CDATA[Given User is at sign up page...............................................passed
+When title is facebook......................................................passed
+Then user enters "ruth" and "lang" and "ruth@4675@gmail.com" and "123890"...passed
+Then Select Birthday........................................................passed
+Then guy opt for gender.....................................................passed
+Then user clicks signup button..............................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

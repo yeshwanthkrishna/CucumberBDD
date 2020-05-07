@@ -1,0 +1,366 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "facebook signup test scenario",
+        "description": "",
+        "id": "facebook-signup-feature;facebook-signup-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17810949594,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is at sign up page",
+            "match": {
+              "location": "loginstepdefinitions.user_at_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49946706,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title is facebook",
+            "match": {
+              "location": "loginstepdefinitions.title_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3414545463,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"mike\" and \"kosa\" and \"kittu8064@gmail.com\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mike",
+                  "offset": 13
+                },
+                {
+                  "val": "kosa",
+                  "offset": 24
+                },
+                {
+                  "val": "kittu8064@gmail.com",
+                  "offset": 35
+                },
+                {
+                  "val": "123456",
+                  "offset": 61
+                }
+              ],
+              "location": "loginstepdefinitions.user_enters_firstname_lastname_email_password(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 692142716,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Birthday",
+            "match": {
+              "location": "loginstepdefinitions.Select_Birthday()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247805362,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "guy opt for gender",
+            "match": {
+              "location": "loginstepdefinitions.guy_opt_for_gender()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 702794363,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks signup button",
+            "match": {
+              "location": "loginstepdefinitions.user_clicks_signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8933557738,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the browser",
+            "match": {
+              "location": "loginstepdefinitions.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "facebook signup test scenario",
+        "description": "",
+        "id": "facebook-signup-feature;facebook-signup-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9066179845,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is at sign up page",
+            "match": {
+              "location": "loginstepdefinitions.user_at_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49803080,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title is facebook",
+            "match": {
+              "location": "loginstepdefinitions.title_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2477582783,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"marty\" and \"byrde\" and \"yesh@gmail.com\" and \"456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "marty",
+                  "offset": 13
+                },
+                {
+                  "val": "byrde",
+                  "offset": 25
+                },
+                {
+                  "val": "yesh@gmail.com",
+                  "offset": 37
+                },
+                {
+                  "val": "456789",
+                  "offset": 58
+                }
+              ],
+              "location": "loginstepdefinitions.user_enters_firstname_lastname_email_password(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 786051294,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Birthday",
+            "match": {
+              "location": "loginstepdefinitions.Select_Birthday()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 618470486,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "guy opt for gender",
+            "match": {
+              "location": "loginstepdefinitions.guy_opt_for_gender()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 558866186,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks signup button",
+            "match": {
+              "location": "loginstepdefinitions.user_clicks_signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7717096631,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the browser",
+            "match": {
+              "location": "loginstepdefinitions.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "facebook signup test scenario",
+        "description": "",
+        "id": "facebook-signup-feature;facebook-signup-test-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8094026827,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is at sign up page",
+            "match": {
+              "location": "loginstepdefinitions.user_at_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40995910,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title is facebook",
+            "match": {
+              "location": "loginstepdefinitions.title_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3089511202,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"ruth\" and \"lang\" and \"ruth@4675@gmail.com\" and \"123890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ruth",
+                  "offset": 13
+                },
+                {
+                  "val": "lang",
+                  "offset": 24
+                },
+                {
+                  "val": "ruth@4675@gmail.com",
+                  "offset": 35
+                },
+                {
+                  "val": "123890",
+                  "offset": 61
+                }
+              ],
+              "location": "loginstepdefinitions.user_enters_firstname_lastname_email_password(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 936756958,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Birthday",
+            "match": {
+              "location": "loginstepdefinitions.Select_Birthday()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 287628495,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "guy opt for gender",
+            "match": {
+              "location": "loginstepdefinitions.guy_opt_for_gender()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 395509430,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks signup button",
+            "match": {
+              "location": "loginstepdefinitions.user_clicks_signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3003245656,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the browser",
+            "match": {
+              "location": "loginstepdefinitions.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "facebook signup feature",
+    "description": "",
+    "id": "facebook-signup-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/sai/eclipse-workspace/FacebookBDD/src/main/java/Features/Signup.feature"
+  }
+]
