@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0.495542">
-<testcase classname="working on tags" name="open facebook" time="0.495118">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="27.682904">
+<testcase classname="working on tags" name="open facebook" time="25.892335">
 <system-out><![CDATA[Given open browser..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="working on tags" name="facebook is opened" time="0.000072">
+<testcase classname="working on tags" name="facebook is opened" time="0.001745">
 <system-out><![CDATA[Given check the details.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="working on tags" name="enter details" time="0.000079">
+<testcase classname="working on tags" name="enter details" time="0.001827">
 <system-out><![CDATA[Given enter credentials.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="working on tags" name="check password" time="0.000063">
+<testcase classname="working on tags" name="check password" time="0.001643">
 <system-out><![CDATA[Given enter correctly.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="working on tags" name="signup facebook" time="0.000071">
+<testcase classname="working on tags" name="signup facebook" time="1.779915">
 <system-out><![CDATA[Given register to facebook..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="working on tags" name="enter firstname" time="0.000063">
+<testcase classname="working on tags" name="enter firstname" time="0.002907">
 <system-out><![CDATA[Given check the spelling....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="working on tags" name="enter dob" time="0.000076">
+<testcase classname="working on tags" name="enter dob" time="0.002532">
 <system-out><![CDATA[Given birthday selected.....................................................passed
 ]]></system-out>
 </testcase>

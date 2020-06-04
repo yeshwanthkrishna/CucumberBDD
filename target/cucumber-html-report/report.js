@@ -35,7 +35,7 @@ formatter.match({
   "location": "Tagsdefinitions.open_browser()"
 });
 formatter.result({
-  "duration": 495117747,
+  "duration": 25892335047,
   "status": "passed"
 });
 formatter.scenario({
@@ -61,7 +61,7 @@ formatter.match({
   "location": "Tagsdefinitions.check_the_details()"
 });
 formatter.result({
-  "duration": 71814,
+  "duration": 1744587,
   "status": "passed"
 });
 formatter.scenario({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "Tagsdefinitions.enter_credentials()"
 });
 formatter.result({
-  "duration": 79373,
+  "duration": 1827200,
   "status": "passed"
 });
 formatter.scenario({
@@ -121,7 +121,7 @@ formatter.match({
   "location": "Tagsdefinitions.enter_correctly()"
 });
 formatter.result({
-  "duration": 62634,
+  "duration": 1642536,
   "status": "passed"
 });
 formatter.scenario({
@@ -151,7 +151,7 @@ formatter.match({
   "location": "Tagsdefinitions.register_to_facebook()"
 });
 formatter.result({
-  "duration": 71274,
+  "duration": 1779915271,
   "status": "passed"
 });
 formatter.scenario({
@@ -177,7 +177,7 @@ formatter.match({
   "location": "Tagsdefinitions.check_the_spelling()"
 });
 formatter.result({
-  "duration": 62634,
+  "duration": 2907106,
   "status": "passed"
 });
 formatter.scenario({
@@ -211,7 +211,7 @@ formatter.match({
   "location": "Tagsdefinitions.birthday_selected()"
 });
 formatter.result({
-  "duration": 76133,
+  "duration": 2531839,
   "status": "passed"
 });
 });
